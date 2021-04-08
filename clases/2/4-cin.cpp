@@ -3,12 +3,16 @@ using namespace std;
 
 int main() {
   int entero;
-
+  cout << "Ingresa un número:\n";
   cin >> entero;  // input 5
   // entero <- 5
+  cout << "El número que me ingresaste es: " << entero << endl;
+
 
   int entero_1, entero_2;
   string palabra = "plabra";  // palabra <- "palabra"
+
+  cout << "Ingresa otros 3 números:\n";
 
   cin >> entero_1 >> entero_2 >> palabra;  // input: 1 2 3
   // entero_1 <- 1
