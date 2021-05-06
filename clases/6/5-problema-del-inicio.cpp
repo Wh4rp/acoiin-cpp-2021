@@ -9,7 +9,8 @@ int main() {
     cin >> v[i];
   }
   for (int i = n - 1; i >= 0; i--) {
-    cin >> v[i];
+    cout << v[i] << " ";
   }
+  cout << endl;
   return 0;
 }
