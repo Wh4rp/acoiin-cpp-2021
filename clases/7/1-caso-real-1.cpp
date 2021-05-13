@@ -20,6 +20,7 @@ int main() {
     cout << "No es par\n";
     cout << "Ingrese un número\n";
     cout << "Ese no me gusta, ingresa otro\n";
+    cin >> t;
   }
 
   cout << "Fin del programa\n";

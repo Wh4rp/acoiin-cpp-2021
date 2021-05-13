@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int main() {
@@ -8,10 +9,11 @@ int main() {
   while (a >= 10) {
     t++;
     a /= 10;
+    // cout << "a vale:" << a << '\n';
   }
   cout << "Su primer número tiene " << t << " digitos\n";
 
-  t = 0;
+  t = 1;
   while (b >= 10) {
     t++;
     b /= 10;
