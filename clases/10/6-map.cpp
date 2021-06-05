@@ -11,6 +11,8 @@ int main() {
   }
   cout << "\n\n";
   m[1] = "platano";
+  m.insert({2, ""});
+  m[2] = "pera";
   cout << 1 << " = " << m[1] << endl;
   m.erase(1);
 

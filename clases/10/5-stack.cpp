@@ -19,7 +19,7 @@ int main() {
   3
   */
 
-  cout << "Elemento de arriba es" << s.top() << endl;
+  cout << "Elemento de arriba es " << s.top() << endl;
 
   s.pop();
   /*
@@ -27,7 +27,7 @@ int main() {
   3
   */
   cout << "Se hizo pop\n";
-  cout << "Elemento de arriba es" << s.top() << endl;
+  cout << "Elemento de arriba es " << s.top() << endl;
 
   return 0;
 }

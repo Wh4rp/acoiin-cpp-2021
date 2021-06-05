@@ -4,12 +4,15 @@ using namespace std;
 int main() {
   vector<int> v = {7, 5, 16, 8};
 
-  v.push_back(25);
-  v.push_back(13);
+  // vector<string> s = {"hola", " ", "mundo"};
+
+  v.push_back(25); // {7, 5, 16, 8, 25}
+  v.push_back(13); // {7, 5, 16, 8, 25, 13}
 
   cout << "v = { ";
-  for (int n : v) {
-    cout << n << ", ";
+  // auto x = "string";
+  for (auto& x : v) {
+    cout << x << ", ";
   }
   cout << "}; \n";
 
@@ -21,7 +24,10 @@ int main() {
   cout << v.back() << '\n';
 
   if (!v.empty())
-    cout << "No está vacio a2\n";
+    cout << "No está vacio v\n";
+  else
+    cout << "Está vacío\n";
 
   cout << v.size() << '\n';
+  
 }
