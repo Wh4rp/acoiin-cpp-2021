@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct Pokemon {   
+struct Pokemon {
     string mote, especie, tipo;
     int nivel;
 
@@ -9,14 +9,19 @@ struct Pokemon {
         cout << "Hola soy " << mote << " soy de nivel ";
         cout << nivel << " y soy un " << especie << '\n';
     }
+    bool maxlevelQ(){
+      if(nivel == 100) return true;
+      else return false;
+    }
+
 };
 
 int main() {
-    // struct Pokemon pika; Estilo C de definir
-    Pokemon pika;            // Estilo C++ de definir
+    // struct Pokemon pika; Estilo C de declarar
+    Pokemon pika;            // Estilo C++ de declarar
     pika.nivel = 5;
     cout << "pika.nivel = " << pika.nivel << '\n';
-
-    Pokemon pikachu{"pika :0",  "Pickachu", "electrico", 20};
+    
+    Pokemon pikachu{"pika123",  "Pickachu", "electrico", 20};
     pikachu.saludar();
 }

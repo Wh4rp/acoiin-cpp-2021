@@ -9,11 +9,12 @@ void saludar(map <string, string> p){
 int main() {
 
   map <string, string> Pokemon;
+	// tipo_dato to otro_tipo_dato
   Pokemon.insert({"mote", "Pika"});
   Pokemon.insert({"especie", "Pikachu"});
   Pokemon.insert({"tipo", "electrico"});
   Pokemon.insert({"nivel", "15"});
   saludar(Pokemon);
-
+	
 	return 0;
 }
